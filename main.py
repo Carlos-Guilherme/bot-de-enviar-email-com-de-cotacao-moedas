@@ -17,7 +17,7 @@ def enviar_email():
     msg['Subject'] = "Cotação de moedas"
     msg['From'] = 'Email que fará o envio'
     msg['To'] = 'Email que receberá'
-    password = 'A senha disponibilizada no google especialmente para aplicações' 
+    password = 'Senhas de App' # acesse aqui para gerar a sua: https://myaccount.google.com/u/1/security
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
